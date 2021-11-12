@@ -1,10 +1,14 @@
 body {
+  width: 550px;
+  margin: auto;
+}
+.container {
   border: 1px solid grey;
   border-radius: 20px;
   padding: 3px;
   margin: 5px;
-  width: 550px;
 }
+
 #location {
   width: 400px;
 }
@@ -72,4 +76,8 @@ div.current-weather-spec {
   font-size: 13px;
   color: grey;
   line-height: 1.5;
+}
+
+footer {
+  padding-right: 10px;
 }
