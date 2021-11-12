@@ -1,0 +1,75 @@
+body {
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 3px;
+  margin: 5px;
+  width: 550px;
+}
+#location {
+  width: 400px;
+}
+
+#searchButton,
+#currentLocation {
+  color: rgb(55, 55, 92);
+  background-color: rgba(117, 117, 236, 0.7);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgb(199, 196, 196);
+  padding: 5px;
+}
+
+.weather-emoji {
+  font-size: 50px;
+}
+.location {
+  font-size: 50px;
+  position: relative;
+  right: 15px;
+}
+div.current-time {
+  font-size: 12px;
+  color: grey;
+  position: relative;
+  bottom: 8px;
+}
+div.current-temp {
+  font-size: 60px;
+  position: relative;
+  bottom: 20px;
+}
+div.degrees {
+  font-size: 20px;
+  position: relative;
+  right: 55px;
+  top: 8px;
+}
+
+row.week-weather {
+  display: inline-block;
+  height: 95px;
+  line-height: 1;
+  margin-right: 7px;
+  text-align: center;
+  width: 75px;
+}
+div.weather-icon {
+  position: relative;
+  left: 2px;
+  font-size: 30px;
+  padding: 3px;
+  display: block;
+  margin: 0 auto;
+}
+span.temp-day {
+  font-size: 14px;
+  color: rgba(119, 90, 90, 0.7);
+  font-weight: 600;
+}
+div.current-weather-spec {
+  position: relative;
+  bottom: 60px;
+  font-size: 13px;
+  color: grey;
+  line-height: 1.5;
+}
